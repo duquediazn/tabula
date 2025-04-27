@@ -11,17 +11,20 @@ Su nombre hace referencia a las *tabulae* romanas, las primeras herramientas de 
 ## Tecnologías utilizadas
 
 ### Backend
--  [FastAPI](https://fastapi.tiangolo.com/)
--  PostgreSQL
--  SQLModel
--  Autenticación JWT (con access y refresh tokens)
--  WebSockets para notificaciones en tiempo real
+- [FastAPI](https://fastapi.tiangolo.com/) (Python 3.11+)
+- [PostgreSQL](https://www.postgresql.org/)
+- [SQLModel](https://sqlmodel.tiangolo.com/) + [SQLAlchemy](https://www.sqlalchemy.org/) (ORM)
+- Autenticación JWT (access y refresh tokens)
+- [WebSocket](https://developer.mozilla.org/es/docs/Web/API/WebSockets_API) para notificaciones en tiempo real
 
 ### Frontend
--  React (con Vite)
--  Tailwind CSS
--  Gráficas con Recharts
--  Gestión de sesión con JWT + Cookies HttpOnly
+- [React 19](https://react.dev/) (con [Vite](https://vitejs.dev/))
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router v7](https://reactrouter.com/en/main)
+- Gráficas con [Recharts](https://recharts.org/) (gráficas de stock)
+- [Context API](https://react.dev/learn/passing-data-deeply-with-context) para gestión de autenticación
+- Gestión de sesión con JWT + Cookies HttpOnly
+
 
 ---
 
@@ -40,7 +43,7 @@ Su nombre hace referencia a las *tabulae* romanas, las primeras herramientas de 
 - Categorización y filtrado avanzado
 - Soporte para productos por lote y fecha de caducidad
 - Sistema de roles y protección de rutas
-- Websockets para actualizaciones en tiempo real
+- Websocket para actualizaciones en tiempo real
 
 ---
 
@@ -76,17 +79,20 @@ The name refers to the *tabulae* of ancient Rome — wax tablets used by scribes
 ## Technologies Used
 
 ### Backend
--  [FastAPI](https://fastapi.tiangolo.com/)
--  PostgreSQL
--  SQLModel
--  JWT Authentication (access and refresh tokens)
--  WebSockets for real-time notifications
+- [FastAPI](https://fastapi.tiangolo.com/) (Python 3.11+)
+- [PostgreSQL](https://www.postgresql.org/)
+- [SQLModel](https://sqlmodel.tiangolo.com/) + [SQLAlchemy](https://www.sqlalchemy.org/) (ORM)
+- JWT Authentication (access and refresh tokens)
+- [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) for real-time notifications
 
 ### Frontend
--  React (with Vite)
--  Tailwind CSS
--  Charts with Recharts
--  Session management using JWT + HttpOnly Cookies
+- [React 19](https://react.dev/) (with [Vite](https://vitejs.dev/))
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router v7](https://reactrouter.com/en/main)
+- Charts with [Recharts](https://recharts.org/) (stock graphs)
+- [Context API](https://react.dev/learn/passing-data-deeply-with-context) for authentication management
+- Session management with JWT + HttpOnly Cookies
+
 
 ---
 
